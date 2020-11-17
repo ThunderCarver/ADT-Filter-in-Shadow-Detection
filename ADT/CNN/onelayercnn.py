@@ -9,10 +9,10 @@ from keras.utils import to_categorical
 for i in range(1,8):
     # read data
     num_classes = 2
-    data = loadmat('/Users/xxx/Documents/MATLAB/ADT/cross validation/'+str(i)+'/Ttraindata.mat',)
+    data = loadmat('Documents/ADT-Filter-in-Shaodw-Detection/ADT/cross validation/'+str(i)+'/Ttraindata.mat',)
     x_train = data['Ttraindata']
     y_train = data['TtrainLabel']
-    testdata = loadmat('/Users/xxx/Documents/MATLAB/ADT/cross validation/1/Ttestdata.mat')
+    testdata = loadmat('Documents/ADT-Filter-in-Shaodw-Detection/ADT/cross validation/1/Ttestdata.mat')
     x_test = testdata['Ttestdata']
     y_test = testdata['TtestLabel']
 
