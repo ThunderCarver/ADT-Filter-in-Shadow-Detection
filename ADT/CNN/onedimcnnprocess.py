@@ -4,7 +4,7 @@ from keras.models import load_model
 import matplotlib.pyplot as plt
 from scipy.io import loadmat, savemat
 
-data = loadmat('/Users/xxx/Documents/MATLAB/ADT/sample.mat')
+data = loadmat('/Documents/ADT-Filter-in-Shadow-Detection/ADT/sample.mat')
 x = data['instance']
 x = x.reshape(x.shape[0],x.shape[1],1)
 model = load_model('./5010/ADTcnn7.h5')
