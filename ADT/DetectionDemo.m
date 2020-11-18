@@ -1,5 +1,5 @@
 %% read image
-img=imread('/Documents/ADT-Filter-in-Shaodw-Detection/datasets/images/zhu-dsc01657.jpg');
+img=imread('/Documents/ADT-Filter-in-Shadow-Detection/datasets/images/zhu-dsc01657.jpg');
 %% extract features
 [instance,boundaries]=extractfeature(img);
 %% normalize data
