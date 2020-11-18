@@ -9,4 +9,4 @@
 #### run under matlab R2019b
 
 ## License
-General Public License, version 3
+GNU General Public License (GPLv3)
