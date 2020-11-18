@@ -9,3 +9,6 @@
 * The `models` folder contains the codes of our training models and the test towards the corresponding models.
 * The `CNN` folder consists of the codes to implement CNN processing.
 * The `cross validation` folder conprises the intermediate results referring as our 7-cross validation.  
+
+### Note:
+* Don't forget to change the path to accord with your project
