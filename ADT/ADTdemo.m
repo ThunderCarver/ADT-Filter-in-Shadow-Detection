@@ -20,7 +20,7 @@ T=cell2mat(boundaries);
 TT=cat(2,T(:,2),T(:,1));
 testLabel=double(ismember(TT,coordinate,'rows'));
 testLabel(testLabel==0)=-1;
-%% conduct MLP anticipate
+%% conduct MLP anticipate  (You can also change to AE or SVM models)
 load ('cross validation/3/mlp10satCV.mat');
 feedinput=instance';
 y=mlp10satCV(feedinput);
