@@ -9,7 +9,7 @@ from keras.utils import to_categorical
 
 
 num_classes = 2
-data = loadmat('/Users/xxx/Documents/ADT-Fliter-in-Shadow-Detection/ADT/cross validation/1/Ttraindata.mat')
+data = loadmat('/Documents/ADT-Fliter-in-Shadow-Detection/ADT/cross validation/1/Ttraindata.mat')
 x_train = data['Ttraindata']
 y_train = data['TtrainLabel']
 x_train = x_train.reshape(x_train.shape[0],x_train.shape[1],1)
