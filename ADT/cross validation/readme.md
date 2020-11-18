@@ -1,5 +1,1 @@
-All the codes in cross validation floder are used to show the resluts of our experiments, 
-where we focus on ROC and AUC, mean and deviation.
 
-
-## Don't forget to change the excel file into readme.md
