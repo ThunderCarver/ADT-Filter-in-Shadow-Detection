@@ -11,5 +11,3 @@ model = load_model('./5010/ADTcnn7.h5')
 model.summary()
 prediectedclass = model.predict_classes(x)
 #savemat('/Users/lav/Documents/MATLAB/reADT/predictsample.mat',{'predictedclass':np.array(prediectedclass)})
-
-
