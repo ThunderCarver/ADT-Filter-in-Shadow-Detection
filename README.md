@@ -1,8 +1,10 @@
 # ADT-Filter-in-Shadow-Detection
+  This repository comprises the code of ADT emplyed in Shadow Detection.
   
-  add path "datasets/src/load_xml" to your MATLAB search path <br>
-  add path "ADT" to your MATLAB search path <br>
-  You should change the file paths in source code according to your own project to run the code <br>
+  
+  * add path "datasets/src/load_xml" to your MATLAB search path <br>
+  * add path "ADT" to your MATLAB search path <br>
+  * You should change the file paths in source code according to your own project to run the code <br>
 
 
 
